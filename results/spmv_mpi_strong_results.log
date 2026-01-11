@@ -1,0 +1,296 @@
+MATRIX: matrix1.mtx
+P=1
+Opened file successfully!
+Matrix dimensions: 317 x 317 with 7327 non-zero entries
+run=0 comm=1.430511e-06 comp=2.622604e-05 total=2.765656e-05
+run=1 comm=0.000000e+00 comp=2.622604e-05 total=2.622604e-05
+run=2 comm=0.000000e+00 comp=2.598763e-05 total=2.598763e-05
+run=3 comm=0.000000e+00 comp=2.598763e-05 total=2.598763e-05
+run=4 comm=0.000000e+00 comp=2.574921e-05 total=2.574921e-05
+
+P=2
+Opened file successfully!
+Matrix dimensions: 317 x 317 with 7327 non-zero entries
+run=0 comm=8.344650e-06 comp=1.883507e-05 total=2.717972e-05
+run=1 comm=1.384330e-02 comp=2.408028e-05 total=1.386738e-02
+run=2 comm=1.115799e-04 comp=1.764297e-05 total=1.292229e-04
+run=3 comm=7.224083e-05 comp=1.573563e-05 total=8.797646e-05
+run=4 comm=6.937981e-05 comp=1.478195e-05 total=8.416176e-05
+
+P=4
+Opened file successfully!
+Matrix dimensions: 317 x 317 with 7327 non-zero entries
+run=0 comm=2.555561e-02 comp=1.764297e-05 total=2.557325e-02
+run=1 comm=4.241419e-02 comp=1.859665e-05 total=4.243279e-02
+run=2 comm=2.932549e-05 comp=1.335144e-05 total=4.267693e-05
+run=3 comm=1.549721e-05 comp=1.025200e-05 total=2.574921e-05
+run=4 comm=1.454353e-05 comp=8.821487e-06 total=2.336502e-05
+
+P=8
+Opened file successfully!
+Matrix dimensions: 317 x 317 with 7327 non-zero entries
+run=0 comm=3.981590e-05 comp=6.198883e-06 total=4.601479e-05
+run=1 comm=2.861023e-05 comp=5.006790e-06 total=3.361702e-05
+run=2 comm=2.264977e-05 comp=4.291534e-06 total=2.694130e-05
+run=3 comm=2.169609e-05 comp=4.053116e-06 total=2.574921e-05
+run=4 comm=2.145767e-05 comp=4.053116e-06 total=2.551079e-05
+
+P=16
+Opened file successfully!
+Matrix dimensions: 317 x 317 with 7327 non-zero entries
+run=0 comm=9.049439e-02 comp=5.006790e-06 total=9.049940e-02
+run=1 comm=6.760430e-02 comp=5.245209e-06 total=6.760955e-02
+run=2 comm=5.201197e-02 comp=6.198883e-06 total=5.201817e-02
+run=3 comm=6.401420e-02 comp=5.006790e-06 total=6.401920e-02
+run=4 comm=7.789302e-02 comp=5.722046e-06 total=7.789874e-02
+
+P=32
+Opened file successfully!
+Matrix dimensions: 317 x 317 with 7327 non-zero entries
+run=0 comm=8.102846e-02 comp=3.814697e-06 total=8.103228e-02
+run=1 comm=8.093500e-02 comp=3.576279e-06 total=8.093858e-02
+run=2 comm=9.396863e-02 comp=3.576279e-06 total=9.397221e-02
+run=3 comm=8.095717e-02 comp=3.814697e-06 total=8.096099e-02
+run=4 comm=6.116962e-02 comp=3.814697e-06 total=6.117344e-02
+
+P=64
+Opened file successfully!
+Matrix dimensions: 317 x 317 with 7327 non-zero entries
+run=0 comm=1.054540e-01 comp=2.622604e-06 total=1.054566e-01
+run=1 comm=1.056283e-01 comp=1.907349e-06 total=1.056302e-01
+run=2 comm=1.052217e-01 comp=2.384186e-06 total=1.052241e-01
+run=3 comm=1.199694e-01 comp=2.861023e-06 total=1.199722e-01
+run=4 comm=1.021109e-01 comp=2.384186e-06 total=1.021132e-01
+
+P=128
+Opened file successfully!
+Matrix dimensions: 317 x 317 with 7327 non-zero entries
+run=0 comm=9.370899e-02 comp=2.145767e-06 total=9.371114e-02
+run=1 comm=1.078789e-01 comp=1.668930e-06 total=1.078806e-01
+run=2 comm=8.419991e-02 comp=2.145767e-06 total=8.420205e-02
+run=3 comm=1.023409e-01 comp=2.145767e-06 total=1.023431e-01
+run=4 comm=1.258187e-01 comp=3.337860e-06 total=1.258221e-01
+
+----------------------------------------
+MATRIX: matrix2.mtx
+P=1
+Opened file successfully!
+Matrix dimensions: 51993 x 51993 with 380415 non-zero entries
+run=0 comm=1.668930e-06 comp=1.462460e-03 total=1.464128e-03
+run=1 comm=2.384186e-07 comp=1.526594e-03 total=1.526833e-03
+run=2 comm=2.384186e-07 comp=1.543760e-03 total=1.543999e-03
+run=3 comm=0.000000e+00 comp=1.453638e-03 total=1.453638e-03
+run=4 comm=0.000000e+00 comp=1.489401e-03 total=1.489401e-03
+
+P=2
+Opened file successfully!
+Matrix dimensions: 51993 x 51993 with 380415 non-zero entries
+run=0 comm=1.346254e-02 comp=2.267361e-03 total=1.572990e-02
+run=1 comm=4.749298e-04 comp=2.217293e-03 total=2.692223e-03
+run=2 comm=4.425049e-04 comp=2.144337e-03 total=2.586842e-03
+run=3 comm=4.658699e-04 comp=2.190351e-03 total=2.656221e-03
+run=4 comm=4.479885e-04 comp=1.511478e-02 total=1.556277e-02
+
+P=4
+Opened file successfully!
+Matrix dimensions: 51993 x 51993 with 380415 non-zero entries
+run=0 comm=2.138472e-02 comp=9.799004e-04 total=2.236462e-02
+run=1 comm=1.445770e-03 comp=9.739399e-04 total=2.419710e-03
+run=2 comm=1.437330e-02 comp=9.653568e-04 total=1.533866e-02
+run=3 comm=1.472950e-03 comp=9.589195e-04 total=2.431870e-03
+run=4 comm=1.361609e-03 comp=9.329319e-04 total=2.294540e-03
+
+P=8
+Opened file successfully!
+Matrix dimensions: 51993 x 51993 with 380415 non-zero entries
+run=0 comm=3.175855e-02 comp=4.367828e-04 total=3.219533e-02
+run=1 comm=1.831770e-03 comp=1.343799e-02 total=1.526976e-02
+run=2 comm=1.872540e-03 comp=4.284382e-04 total=2.300978e-03
+run=3 comm=9.955883e-03 comp=3.898144e-04 total=1.034570e-02
+run=4 comm=1.880765e-02 comp=4.446507e-04 total=1.925230e-02
+
+P=16
+Opened file successfully!
+Matrix dimensions: 51993 x 51993 with 380415 non-zero entries
+run=0 comm=8.778548e-02 comp=3.309250e-04 total=8.811641e-02
+run=1 comm=8.367419e-02 comp=3.201962e-04 total=8.399439e-02
+run=2 comm=1.239903e-01 comp=3.306866e-04 total=1.243210e-01
+run=3 comm=8.214450e-02 comp=3.337860e-04 total=8.247828e-02
+run=4 comm=8.062696e-02 comp=3.266335e-04 total=8.095360e-02
+
+P=32
+Opened file successfully!
+Matrix dimensions: 51993 x 51993 with 380415 non-zero entries
+run=0 comm=8.210969e-02 comp=1.182556e-04 total=8.222795e-02
+run=1 comm=8.212543e-02 comp=1.151562e-04 total=8.224058e-02
+run=2 comm=6.308675e-02 comp=1.144409e-04 total=6.320119e-02
+run=3 comm=8.006907e-02 comp=1.206398e-04 total=8.018970e-02
+run=4 comm=8.326483e-02 comp=1.137257e-04 total=8.337855e-02
+
+P=64
+Opened file successfully!
+Matrix dimensions: 51993 x 51993 with 380415 non-zero entries
+run=0 comm=8.653331e-02 comp=1.347065e-04 total=8.666801e-02
+run=1 comm=1.102283e-01 comp=1.420975e-04 total=1.103704e-01
+run=2 comm=1.045232e-01 comp=1.330376e-04 total=1.046562e-01
+run=3 comm=9.399557e-02 comp=1.473427e-04 total=9.414291e-02
+run=4 comm=9.240270e-02 comp=3.149509e-04 total=9.271765e-02
+
+P=128
+Opened file successfully!
+Matrix dimensions: 51993 x 51993 with 380415 non-zero entries
+run=0 comm=1.691210e-01 comp=8.773804e-05 total=1.692088e-01
+run=1 comm=1.581314e-01 comp=8.654594e-05 total=1.582179e-01
+run=2 comm=1.358337e-01 comp=9.226799e-05 total=1.359260e-01
+run=3 comm=1.389785e-01 comp=8.988380e-05 total=1.390684e-01
+run=4 comm=1.241035e-01 comp=1.047134e-03 total=1.251507e-01
+
+----------------------------------------
+MATRIX: matrix3.mtx
+P=1
+Opened file successfully!
+Matrix dimensions: 17880 x 17880 with 430740 non-zero entries
+run=0 comm=1.668930e-06 comp=1.518726e-03 total=1.520395e-03
+run=1 comm=2.384186e-07 comp=1.463890e-03 total=1.464128e-03
+run=2 comm=0.000000e+00 comp=1.449752e-02 total=1.449752e-02
+run=3 comm=0.000000e+00 comp=1.504660e-03 total=1.504660e-03
+run=4 comm=2.384186e-07 comp=1.491308e-03 total=1.491547e-03
+
+P=2
+Opened file successfully!
+Matrix dimensions: 17880 x 17880 with 430740 non-zero entries
+run=0 comm=2.815723e-04 comp=8.642673e-04 total=1.145840e-03
+run=1 comm=2.446175e-04 comp=8.361340e-04 total=1.080751e-03
+run=2 comm=2.539158e-04 comp=8.077621e-04 total=1.061678e-03
+run=3 comm=1.823449e-02 comp=8.723736e-04 total=1.910686e-02
+run=4 comm=2.365112e-04 comp=8.149147e-04 total=1.051426e-03
+
+P=4
+Opened file successfully!
+Matrix dimensions: 17880 x 17880 with 430740 non-zero entries
+run=0 comm=4.446507e-04 comp=4.725456e-04 total=9.171963e-04
+run=1 comm=6.878138e-03 comp=4.563332e-04 total=7.334471e-03
+run=2 comm=4.465580e-04 comp=4.577637e-04 total=9.043217e-04
+run=3 comm=7.632256e-03 comp=4.353523e-04 total=8.067608e-03
+run=4 comm=4.374981e-04 comp=4.289150e-04 total=8.664131e-04
+
+P=8
+Opened file successfully!
+Matrix dimensions: 17880 x 17880 with 430740 non-zero entries
+run=0 comm=5.169249e-02 comp=2.508163e-04 total=5.194330e-02
+run=1 comm=7.263517e-02 comp=2.601147e-04 total=7.289529e-02
+run=2 comm=5.359578e-02 comp=2.610683e-04 total=5.385685e-02
+run=3 comm=5.286312e-02 comp=2.565384e-04 total=5.311966e-02
+run=4 comm=5.249500e-02 comp=2.541542e-04 total=5.274916e-02
+
+P=16
+Opened file successfully!
+Matrix dimensions: 17880 x 17880 with 430740 non-zero entries
+run=0 comm=6.067872e-02 comp=1.525879e-04 total=6.083131e-02
+run=1 comm=7.904339e-02 comp=1.695156e-04 total=7.921290e-02
+run=2 comm=9.000921e-02 comp=1.466274e-04 total=9.015584e-02
+run=3 comm=8.509398e-02 comp=1.378059e-04 total=8.523178e-02
+run=4 comm=7.409620e-02 comp=1.387596e-04 total=7.423496e-02
+
+P=32
+Opened file successfully!
+Matrix dimensions: 17880 x 17880 with 430740 non-zero entries
+run=0 comm=7.921600e-02 comp=8.749962e-05 total=7.930350e-02
+run=1 comm=7.917047e-02 comp=1.068115e-04 total=7.927728e-02
+run=2 comm=9.320760e-02 comp=9.036064e-05 total=9.329796e-02
+run=3 comm=9.533954e-02 comp=9.560585e-05 total=9.543514e-02
+run=4 comm=8.229232e-02 comp=9.655952e-05 total=8.238888e-02
+
+P=64
+Opened file successfully!
+Matrix dimensions: 17880 x 17880 with 430740 non-zero entries
+run=0 comm=1.093879e-01 comp=4.363060e-05 total=1.094315e-01
+run=1 comm=8.136058e-02 comp=3.814697e-05 total=8.139873e-02
+run=2 comm=1.317260e-01 comp=4.529953e-05 total=1.317713e-01
+run=3 comm=1.084409e-01 comp=4.553795e-05 total=1.084864e-01
+run=4 comm=1.053047e-01 comp=1.151562e-04 total=1.054199e-01
+
+P=128
+Opened file successfully!
+Matrix dimensions: 17880 x 17880 with 430740 non-zero entries
+run=0 comm=8.937430e-02 comp=1.306581e-02 total=1.024401e-01
+run=1 comm=1.246357e-01 comp=4.911423e-05 total=1.246848e-01
+run=2 comm=1.226521e-01 comp=5.030632e-05 total=1.227024e-01
+run=3 comm=1.313972e-01 comp=4.863739e-05 total=1.314459e-01
+run=4 comm=1.313918e-01 comp=6.055832e-05 total=1.314523e-01
+
+----------------------------------------
+MATRIX: matrix4.mtx
+P=1
+Opened file successfully!
+Matrix dimensions: 1000005 x 1000005 with 3105536 non-zero entries
+run=0 comm=9.536743e-07 comp=3.307533e-02 total=3.307629e-02
+run=1 comm=2.384186e-07 comp=4.590797e-02 total=4.590821e-02
+run=2 comm=2.384186e-07 comp=3.330469e-02 total=3.330493e-02
+run=3 comm=2.384186e-07 comp=4.593015e-02 total=4.593039e-02
+run=4 comm=2.384186e-07 comp=4.579449e-02 total=4.579473e-02
+
+P=2
+Opened file successfully!
+Matrix dimensions: 1000005 x 1000005 with 3105536 non-zero entries
+run=0 comm=1.409054e-03 comp=4.045439e-02 total=4.186344e-02
+run=1 comm=9.304762e-03 comp=2.727008e-02 total=3.657484e-02
+run=2 comm=1.436424e-02 comp=2.695727e-02 total=4.132152e-02
+run=3 comm=9.374857e-03 comp=2.745104e-02 total=3.682590e-02
+run=4 comm=2.336359e-02 comp=2.730870e-02 total=5.067229e-02
+
+P=4
+Opened file successfully!
+Matrix dimensions: 1000005 x 1000005 with 3105536 non-zero entries
+run=0 comm=3.397322e-02 comp=1.723766e-02 total=5.121088e-02
+run=1 comm=2.265668e-02 comp=2.140307e-02 total=4.405975e-02
+run=2 comm=2.738047e-02 comp=2.126622e-02 total=4.864669e-02
+run=3 comm=6.583357e-02 comp=2.825260e-02 total=9.408617e-02
+run=4 comm=3.005624e-02 comp=2.285457e-02 total=5.291080e-02
+
+P=8
+Opened file successfully!
+Matrix dimensions: 1000005 x 1000005 with 3105536 non-zero entries
+run=0 comm=6.426311e-02 comp=5.217314e-03 total=6.948042e-02
+run=1 comm=5.525994e-02 comp=1.695299e-02 total=7.221293e-02
+run=2 comm=5.468893e-02 comp=1.682329e-02 total=7.151222e-02
+run=3 comm=5.485749e-02 comp=1.688075e-02 total=7.173824e-02
+run=4 comm=6.969643e-02 comp=1.708794e-02 total=8.678436e-02
+
+P=16
+Opened file successfully!
+Matrix dimensions: 1000005 x 1000005 with 3105536 non-zero entries
+run=0 comm=7.000732e-02 comp=1.280308e-02 total=8.281040e-02
+run=1 comm=6.977129e-02 comp=1.598263e-02 total=8.575392e-02
+run=2 comm=7.333064e-02 comp=1.609898e-02 total=8.942962e-02
+run=3 comm=7.138968e-02 comp=2.116847e-02 total=9.255815e-02
+run=4 comm=7.262826e-02 comp=1.584148e-02 total=8.846974e-02
+
+P=32
+Opened file successfully!
+Matrix dimensions: 1000005 x 1000005 with 3105536 non-zero entries
+run=0 comm=7.065368e-02 comp=1.074195e-02 total=8.139563e-02
+run=1 comm=5.844903e-02 comp=1.080966e-02 total=6.925869e-02
+run=2 comm=6.885743e-02 comp=1.071715e-02 total=7.957458e-02
+run=3 comm=8.191729e-02 comp=1.763105e-03 total=8.368039e-02
+run=4 comm=8.206463e-02 comp=1.078248e-02 total=9.284711e-02
+
+P=64
+Opened file successfully!
+Matrix dimensions: 1000005 x 1000005 with 3105536 non-zero entries
+run=0 comm=1.298327e-01 comp=1.551390e-03 total=1.313841e-01
+run=1 comm=1.217601e-01 comp=1.404142e-02 total=1.358016e-01
+run=2 comm=1.199136e-01 comp=1.524568e-02 total=1.351593e-01
+run=3 comm=1.124144e-01 comp=2.491713e-03 total=1.149061e-01
+run=4 comm=1.162875e-01 comp=2.291679e-03 total=1.185791e-01
+
+P=128
+Opened file successfully!
+Matrix dimensions: 1000005 x 1000005 with 3105536 non-zero entries
+run=0 comm=3.093190e-01 comp=6.775856e-04 total=3.099966e-01
+run=1 comm=2.887993e-01 comp=6.349087e-04 total=2.894342e-01
+run=2 comm=1.114202e-01 comp=1.363325e-02 total=1.250534e-01
+run=3 comm=3.164802e-01 comp=1.616716e-03 total=3.180969e-01
+run=4 comm=2.929914e-01 comp=1.364422e-02 total=3.066356e-01
+
+----------------------------------------

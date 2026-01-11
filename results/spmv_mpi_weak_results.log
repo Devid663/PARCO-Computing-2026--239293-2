@@ -1,0 +1,33 @@
+MATRIX: randomP1.mtx
+P=1
+Opened file successfully!
+Matrix dimensions: 50000 x 50000 with 500000 non-zero entries
+run=0 comm=2.145767e-06 comp=2.314329e-03 total=2.316475e-03
+run=1 comm=0.000000e+00 comp=2.379656e-03 total=2.379656e-03
+run=2 comm=2.384186e-07 comp=2.387047e-03 total=2.387285e-03
+run=3 comm=4.768372e-07 comp=2.475977e-03 total=2.476454e-03
+run=4 comm=2.384186e-07 comp=2.283096e-03 total=2.283335e-03
+
+----------------------------------------
+MATRIX: randomP8.mtx
+P=8
+Opened file successfully!
+Matrix dimensions: 300000 x 300000 with 3000000 non-zero entries
+run=0 comm=5.357862e-02 comp=3.116131e-03 total=5.669475e-02
+run=1 comm=4.880476e-02 comp=3.059387e-03 total=5.186415e-02
+run=2 comm=4.187274e-02 comp=5.980968e-03 total=4.785371e-02
+run=3 comm=2.136230e-02 comp=9.634256e-03 total=3.099656e-02
+run=4 comm=2.042723e-02 comp=8.357286e-03 total=2.878451e-02
+
+----------------------------------------
+MATRIX: randomP64.mtx
+P=64
+Opened file successfully!
+Matrix dimensions: 1000000 x 1000000 with 10000000 non-zero entries
+run=0 comm=1.132991e-01 comp=3.298044e-03 total=1.165972e-01
+run=1 comm=1.105549e-01 comp=4.263878e-03 total=1.148188e-01
+run=2 comm=1.056468e-01 comp=1.342535e-03 total=1.069894e-01
+run=3 comm=9.854698e-02 comp=2.324820e-03 total=1.008718e-01
+run=4 comm=9.597707e-02 comp=3.264427e-03 total=9.924150e-02
+
+----------------------------------------

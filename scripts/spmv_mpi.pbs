@@ -1,0 +1,58 @@
+#!/bin/bash
+# SpMV MPI
+#PBS -N spmv_mpi
+# Output and error files
+#PBS -o ../results/spmv_job.out
+#PBS -e ../results/spmv_job.err
+# Queue
+#PBS -q short_cpuQ
+# Set the maximum wall time
+#PBS -l walltime=0:10:00
+# Number of nodes, cpus, mpi processors and amount of memory
+#PBS -l select=8:ncpus=16:mpiprocs=16:mem=32gb
+
+# Load compiler + MPI
+module load gcc91
+module load mpich-3.2.1--gcc-9.1.0
+mpicc --version
+
+
+cd "$PBS_O_WORKDIR" || exit 1
+
+SRC_DIR="../src"
+OUT_DIR="../results"
+DATA_DIR="../data"
+
+mkdir -p "$OUT_DIR"
+
+echo "Running in: $(pwd)"
+
+# Compile MPI code
+mpicc -std=c99 -O3 "$SRC_DIR/main.c" "$SRC_DIR/utility.c" "$SRC_DIR/mmio.c" -o "$OUT_DIR/spmv_mpi_exec" -lm
+
+# Matrices to test
+MATRICES=("matrix1.mtx" "matrix2.mtx" "matrix3.mtx" "matrix4.mtx")
+
+
+PROCS=(1 2 4 8 16 32 64 128)
+
+LOGFILE="$OUT_DIR/spmv_mpi_weak_results.log" > "$LOGFILE"
+
+for m in "${MATRICES[@]}"; do
+  echo "MATRIX: $m" >> "$LOGFILE"
+
+  for p in "${PROCS[@]}"; do
+    echo "P=$p" >> "$LOGFILE"
+
+    if [ "$p" -le 128 ]; then
+      mpiexec -n "$p" \
+        "$OUT_DIR/spmv_mpi_exec" "$DATA_DIR/$m" >> "$LOGFILE"
+    else
+      echo "SKIPPED P=$p (not enough resources)" >> "$LOGFILE"
+    fi
+
+    echo "" >> "$LOGFILE"
+  done
+
+  echo "----------------------------------------" >> "$LOGFILE"
+done
